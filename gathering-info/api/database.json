@@ -1,0 +1,25 @@
+{
+  "legos": [
+    {
+      "creator": "Jisie",
+      "color": "black",
+      "shape": "rectangle",
+      "creation": "table",
+      "id": 1
+    },
+    {
+      "creator": "test",
+      "color": "Yellow",
+      "shape": "test",
+      "creation": "test",
+      "id": 2
+    },
+    {
+      "creator": "alex",
+      "color": "Yellow",
+      "shape": "dog shape",
+      "creation": "cat",
+      "id": 3
+    }
+  ]
+}
