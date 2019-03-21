@@ -17,12 +17,12 @@ let formHtml = `<fieldset>
 <fieldset>
 <label for="lego__color">Color:</label>
 <select id="lego__color">
-    <option value="Red">Red</option>
-    <option value="Green">Green</option>
-    <option value="Yellow">Yellow</option>
-    <option value="Blue">Blue</option>
-    <option value="Orange">Orange</option>
-    <option value="Black">Black</option>
+    <option value="1">Red</option>
+    <option value="2">Green</option>
+    <option value="3">Yellow</option>
+    <option value="4">Blue</option>
+    <option value="5">Orange</option>
+    <option value="6">Black</option>
 </select>
 </fieldset>
 
@@ -43,7 +43,7 @@ const createLegoBrick = (creator, color, shape, creation) => {
 // Some starter code
 document.querySelector(".lego__save").addEventListener("click", event => {
   const creatorToSave = document.querySelector("#lego__creator").value;
-  const colorToSave = document.querySelector("#lego__color").value;
+  const colorToSave = parseInt(document.querySelector("#lego__color").value)
   const shapeToSave = document.querySelector("#lego__shape").value;
   const creationToSave = document.querySelector("#lego__creation").value;
 

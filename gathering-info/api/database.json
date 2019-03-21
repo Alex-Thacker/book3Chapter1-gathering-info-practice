@@ -20,6 +20,46 @@
       "shape": "dog shape",
       "creation": "cat",
       "id": 3
+    },
+    {
+      "creator": "",
+      "color": 1,
+      "shape": "",
+      "creation": "",
+      "id": 5
+    },
+    {
+      "creator": "",
+      "color": 1,
+      "shape": "",
+      "creation": "",
+      "id": 6
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "color": "Red"
+    },
+    {
+      "id": 2,
+      "color": "Green"
+    },
+    {
+      "id": 3,
+      "color": "Yellow"
+    },
+    {
+      "id": 4,
+      "color": "Blue"
+    },
+    {
+      "id": 5,
+      "color": "Orange"
+    },
+    {
+      "id": 6,
+      "color": "Black"
     }
   ]
 }
